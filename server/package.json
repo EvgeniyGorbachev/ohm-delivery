@@ -5,21 +5,28 @@
       "jest"
     ]
   },
+  "engines": {
+    "node": "13.8.0",
+    "npm": "6.13.6"
+  },
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "/src/index.js",
   "scripts": {
     "test": "jest ./__test__/",
-    "start": "node ./src/index.js"
+    "start": "nodemon ./src/index.js --ignore db.json"
   },
   "author": "Urbantz S.A.",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
+    "joi": "^17.4.2",
     "lowdb": "^1.0.0",
     "shortid": "^2.2.15"
   },
   "devDependencies": {
-    "jest": "^26.0.1"
+    "eslint": "^7.32.0",
+    "jest": "^26.0.1",
+    "nodemon": "^2.0.13"
   }
 }
