@@ -2,7 +2,7 @@
   "_args": [
     [
       "angular@1.8.0",
-      "/Users/tiptop/ohm-delivery/web"
+      "/usr/local/var/www/ohm-delivery/web"
     ]
   ],
   "_from": "angular@1.8.0",
@@ -26,7 +26,7 @@
   ],
   "_resolved": "https://registry.npmjs.org/angular/-/angular-1.8.0.tgz",
   "_spec": "1.8.0",
-  "_where": "/Users/tiptop/ohm-delivery/web",
+  "_where": "/usr/local/var/www/ohm-delivery/web",
   "author": {
     "name": "Angular Core Team",
     "email": "angular-core+npm@google.com"

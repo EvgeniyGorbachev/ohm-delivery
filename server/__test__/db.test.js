@@ -1,4 +1,4 @@
-const utils = require('../src/utils');
+const utils = require('../src/db');
 
 describe('db return ohm', () => {
     test('returns Ohm object', () => {
